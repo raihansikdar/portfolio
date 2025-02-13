@@ -1,0 +1,125 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Open+Sans&family=Poppins:wght@500&family=Ubuntu:wght@500&family=Work+Sans:wght@500&display=swap');
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* header */
+.logo{
+    font-size: 35px;
+    width: 600;
+}
+.logo-color{
+    color: #08B8CC;
+}
+
+.nav-li{
+    font-size: 18px;
+}
+.nav-a{
+    color: white;
+}
+.nav-a:hover{
+   color: red 
+}
+
+.banner{
+    background-color: black;
+    height: auto;
+    
+}
+/* ***********header end *********** */
+
+/* *********** Main  *********** */
+
+/* *****about me********  */
+.my-desc{
+    text-align: justify;
+}
+/* ********skill*******  */
+.my-expertise-desc{
+    text-align: justify;
+}
+/* *********************card***************** */
+.card{
+    background-color: rgb(244, 244, 236);
+}
+.hover-card:hover{
+    transform: scale(.95);
+      transition: 1s;
+}
+
+
+/* Project */
+
+.fullscreen-image {
+    height: 50vh; /* 100% of viewport height */
+
+    object-fit: fill; /* Ensures the image covers the entire area without distortion */
+    display: block;
+  }
+
+
+/* **************carousel************ */
+.custom-carousel{
+    height: 80vh;
+    width: 50vh;
+}
+.carousel-item{
+    height: 80vh;
+    width: 100vh;
+}
+
+.carousel-img{
+    padding-top: 50px;
+    padding-bottom: 80px;
+    margin-left: 340px;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+.hrr{
+    border: 10px dotted;
+    border-color: red;
+    border-bottom: none;
+    width: 80px;
+    margin: auto;
+    
+}
+
+@media screen and (max-width:576px) {
+    .carousel-img{
+        margin-top: 120px;
+        margin-left: 0px;
+        width: 40%;
+        height: 450px;  
+    }
+    .carousel-control-prev-icon{
+        background-color: red;
+        opacity: calc(.3);
+     }
+     .carousel-control-next-icon{
+         background-color: red;
+         opacity: calc(.3);
+     }
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .carousel-img{
+        padding-top: 50px;
+        margin-left: 0px;
+        width: 70%;
+        height: 850px;  
+    }
+    .carousel-control-prev-icon{
+        background-color: red;
+        opacity: calc(.3);
+     }
+     .carousel-control-next-icon{
+         background-color: red;
+         opacity: calc(.3);
+     }
+}
+
