@@ -1,11 +1,7 @@
 /* Font */
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Open+Sans&family=Poppins:wght@500&family=Ubuntu:wght@500&family=Work+Sans:wght@500&display=swap');
 
-:root{
-    --text-color: #f0f2f5;
-    --link-color: #0015f8;
-    --background-color: #eeeff1;
-}
+
 
 body{
     font-family: 'Ubuntu', sans-serif;
@@ -40,27 +36,27 @@ body{
     
 }
 
-.links {
+.social-links {
     margin-top: 25px;
-    color: var(--text-color);
+    color: #f0f2f5;;
 }
 
-.links a {
+.social-links a {
     display: inline-block;
     padding: 5px 10px;
-    border: 2px solid var(--link-color);
+    border: 2px solid #0015f8;
     border-radius: 5px;
     margin-right: 10px; 
 }
 
- .links i {
+ .social-links i {
     color: #fcfcfc; /* Example: blue */
   }
 
-.links a:hover {
-    color: var(--text-color);
-    border: 2px solid var(--link-color);
-    background-color: var(--link-color);
+.social-links a:hover {
+    color: #f0f2f5;
+    border: 2px solid #0015f8;
+    background-color: #0015f8;
 }
 
 
