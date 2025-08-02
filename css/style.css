@@ -28,12 +28,30 @@ body{
    color: red 
 }
 
-.banner{
+
+.banner {
     background: linear-gradient(135deg, #212529 0%, #343a40 100%);
     min-height: 85vh;
     display: flex;
     align-items: center;
-    
+    justify-content: center; 
+}
+
+.banner .row {
+    width: 100%; /* Ensure the row takes full width */
+    margin-left: 0; /* Remove default margin */
+    margin-right: 0; /* Remove default margin */
+    align-items: center; /* Vertically center items */
+}
+
+.banner .col {
+    padding: 1rem; /* Consistent padding */
+}
+
+.img-fluid {
+    width: 100%; /* Responsive image width */
+    max-width: 300px; /* Limit image size */
+    margin: 0 auto; /* Center the image */
 }
 
 .social-links {
