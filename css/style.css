@@ -30,7 +30,7 @@ body{
 
 
 .banner {
-    background: linear-gradient(135deg, #212529 0%, #343a40 100%);
+    background: linear-gradient(135deg, #05090c 0%, #222933 100%);
     min-height: 85vh;
     display: flex;
     align-items: center;
